@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GVTest</string>
+    <string name="log_in">Log In</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+</resources>
