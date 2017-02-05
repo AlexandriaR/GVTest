@@ -50,35 +50,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/cost"
-            android:layout_below="@+id/imageView2"
             android:layout_marginTop="15dp" />
         <TextView
             android:text="example location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/location"
-            android:layout_below="@+id/imageView2"
             android:layout_marginTop="15dp" />
         <TextView
             android:text="mm/dd/yyyy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/date"
-            android:layout_below="@+id/imageView2"
             android:layout_marginTop="15dp" />
         <TextView
             android:text="extra data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/extraData1"
-            android:layout_below="@+id/imageView2"
             android:layout_marginTop="15dp" />
         <TextView
             android:text="more data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/extraData2"
-            android:layout_below="@+id/imageView2"
             android:layout_marginTop="15dp" />
     </LinearLayout>
 
