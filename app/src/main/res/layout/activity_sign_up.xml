@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/colorIcons"
             android:textSize="30sp"
             android:layout_marginStart="0dp"/>
 
@@ -38,10 +38,11 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:paddingLeft="10dp"
+
             android:layout_marginTop="25dp"
             android:id="@+id/editText"
             android:hint="@string/nameHint"
+
             android:background="@drawable/underlinededittext"/>
 
         <EditText
@@ -49,7 +50,7 @@
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:ems="10"
-            android:paddingLeft="10dp"
+
             android:id="@+id/editText4"
             android:layout_below="@+id/editText"
             android:layout_alignLeft="@+id/editText"
@@ -64,7 +65,6 @@
             android:inputType="textPersonName"
             android:layout_marginTop="20dp"
             android:ems="10"
-            android:paddingLeft="10dp"
             android:id="@+id/editText5"
             android:layout_below="@+id/editText4"
             android:layout_alignLeft="@+id/editText4"
@@ -77,7 +77,6 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:paddingLeft="10dp"
             android:layout_marginTop="20dp"
             android:id="@+id/editText6"
             android:layout_below="@+id/editText5"
@@ -91,7 +90,6 @@
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:paddingLeft="10dp"
             android:layout_marginTop="20dp"
             android:id="@+id/editText7"
             android:layout_below="@+id/editText6"
@@ -106,10 +104,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/checkBox"
             android:layout_marginTop="20dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginEnd="80dp"
             app:buttonTint="@color/colorPrimary"
-            android:padding="8dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="10dp"
             android:background="@drawable/outlinedroundtextbox"
             android:checked="true"
             />
