@@ -32,7 +32,7 @@
         android:layout_below="@+id/textView3"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="36dp"
-        android:background="@drawable/roundedTextBox"
+        android:background="@drawable/roundedtextbox"
         android:id="@+id/editText8" />
 
     <Button

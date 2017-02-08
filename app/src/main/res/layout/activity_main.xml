@@ -32,7 +32,7 @@
         android:layout_marginBottom="5dp"
         android:id="@+id/editText2"
         android:hint="@string/email"
-        android:background="@drawable/roundedTextBox" />
+        android:background="@drawable/roundedtextbox" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
         android:layout_alignLeft="@+id/editText2"
         android:layout_alignStart="@+id/editText2"
         android:hint="@string/password"
-        android:background="@drawable/roundedTextBox"
+        android:background="@drawable/roundedtextbox"
         />
 
     <Button
